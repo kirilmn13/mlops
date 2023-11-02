@@ -9,7 +9,7 @@
 
 # Simple config
 pre-commit sample-config | out-file .pre-commit-config.yaml -encoding utf8
-cat .pre-commit-config.yaml   # para consultar 
+cat .pre-commit-config.yaml   # para consultar
 
 # run precommit
 pre-commit run --all-files
