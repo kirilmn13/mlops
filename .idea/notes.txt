@@ -13,3 +13,6 @@ cat .pre-commit-config.yaml   # para consultar
 
 # run precommit
 pre-commit run --all-files
+
+# best way to push with pre-commit
+git push -f origin main
