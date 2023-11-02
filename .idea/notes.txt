@@ -4,6 +4,9 @@
 [Install Pre-commit]
 --> pre-commit install
 
+# install auto - pre commit git hook
+--> pre-commit install --hook-type pre-push
+
 # Simple config
 pre-commit sample-config | out-file .pre-commit-config.yaml -encoding utf8
 cat .pre-commit-config.yaml   # para consultar 
