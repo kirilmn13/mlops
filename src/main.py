@@ -1,5 +1,3 @@
-
-
 def main():
     r = 1 + 1
     return r
