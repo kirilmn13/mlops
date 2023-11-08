@@ -3,7 +3,6 @@ def main():
     return r
 
 
-
 if __name__ == "__main__":
     print("Test")
     main()
